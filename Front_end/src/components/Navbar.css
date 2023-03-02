@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+.me-auto{
+    border: solid 4px black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.log-me{
+    font-size: 40px !important;
+}
+
+.centro{
+    display: flex;
+   width: 200px;
+   display: flex;
+   justify-content: space-between;
+   font-size: 30px;
+}
+
+.barra{
+    font-family: Tilt Neon;
+    
+}
