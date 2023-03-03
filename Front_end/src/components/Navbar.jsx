@@ -8,14 +8,14 @@ import "./Navbar.css"
 const NavbaReact = () => {
     return (
         <div>
-            <Navbar className='barra' bg="light">
+            <Navbar id='barra' bg="light">
                 <Container>
-                    <Navbar.Brand href="#home" className='log-me'>Joias Case</Navbar.Brand>
-                    <div className='centro'>
-                        <Nav.Link href="#home">Joias</Nav.Link>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                    </div>
+                    <Navbar.Brand href="/" className='log-me'>Joias Case</Navbar.Brand>
                 </Container>
+                <div className='centro'>
+                <Navbar.Brand href="/" className='log-ma'>Homer</Navbar.Brand>
+                <Navbar.Brand href="/joia" className='log-ma'>Nova Joia</Navbar.Brand>
+                </div>
             </Navbar>
         </div>
     )

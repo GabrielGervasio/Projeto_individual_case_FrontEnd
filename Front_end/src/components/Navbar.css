@@ -10,15 +10,21 @@
     font-size: 40px !important;
 }
 
-.centro{
-    display: flex;
-   width: 200px;
-   display: flex;
-   justify-content: space-between;
-   font-size: 30px;
+.log-ma{
+    font-size: 25px !important;
 }
 
-.barra{
-    font-family: Tilt Neon;
-    
+.centro{
+    display: flex;
+   width: 600px;
+   display: flex;
+   justify-content: space-evenly;
+   
 }
+
+#barra{
+    font-family: Tilt Neon;
+    background-color: blueviolet !important;
+    text-decoration: none !important;
+}
+
